@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Island+Moments&family=Londrina+Solid:wght@300&family=Oswald&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Island+Moments&family=Oswald&family=Shadows+Into+Light&display=swap');
+header{
+    background-color: black;
+    height: 80px;
+    position: relative;
+    bottom: 10px;
+    right: 8px;
+    width: 101%;
+}
+ .header1 a{
+    color: darkgrey;
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Island Moments', cursive;
+font-family: 'Oswald', sans-serif;
+padding-left: 40px;
+margin-top: 25px;
+text-decoration: none;
+
+}
+a:hover{
+    color:rgba(226,173,13,255);
+}
+.header2 img:hover{
+   color:rgba(226,173,13,255);
+   width: 50px
+}
+button{
+    cursor: pointer;
+}
+@keyframes logo{
+    
+    to{
+        width: 35px;
+        height: 35px;
+    }
+}
+.header2 > img:hover{
+    animation-name: logo;
+    animation-duration: 2s;
+}
+.header1 img{
+    width: 130px;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.header1{
+    display: flex;
+}
+
+.header2{
+   display: flex;
+}
+.header2 button{
+    height: 80px;
+    background-color: rgba(226,173,13,255);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 10px;
+    width: 200px;
+    font-size: 20px;
+
+}
+.header2 img{
+    padding-right: 40px;
+}
+
+#logo1{
+    width:30px;
+    height: 25px;
+    margin-top: 25px;
+}
+#logo2{
+    width:25px;
+    height: 25px;
+    margin-top: 25px;
+}
+#logo3{
+    width:30px;
+    height: 25px;
+    margin-top: 25px;
+    
+}
+#logo4{
+    width:30px;
+    height: 25px;
+    margin-top: 25px;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.main1 img{
+    width:1485px;
+    height: 795px; 
+    position:relative; 
+     bottom: 10px;
+     right: 8px;
+}
+.img1 img{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 210px;
+}
+.img2 img{
+    width:200px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    bottom: 210px;
+}
+.item1{
+    display: flex;
+}
+.button1 button{
+    width:410px;
+    height: 50px;
+    color:white;
+    background-color:rgba(83,12,10,255) ;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: 200px;
+}
+.button2 button{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(255,193,7,255);
+    width:410px;
+    height: 50px;
+    position: relative;
+    bottom: 210px;
+}
+.main2 iframe{
+    margin-left: 150px;
+    position: relative;
+    bottom: 70px;
+}
+.main2 h2{
+    margin-left: 400px;
+    font-size: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Island Moments', cursive;
+font-family: 'Londrina Solid', cursive;
+position: relative;
+bottom: 100px;
+}
+.main3{
+    background-image: url(factory.jpg);
+}
+footer{
+    background-color: black;
+    width: 102%;
+    position: relative;
+    right: 8px;
+}
+footer img{
+    width:300px;
+    margin-left: 550px;
+}
+.terms{
+    display: flex;
+}
+footer h3{
+    color: darkgrey;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 600px;
+    font-size: 13px;
+}
+.terms h4{
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    color: darkgrey;
+    position: relative;
+    left: 490px;
+    font-size: 13px;
+}
+h4:hover{
+    color: white;
+}
