@@ -27,8 +27,6 @@ a:hover{
 }
 button{
     cursor: pointer;
-    animation-name: logo;
-    animation-duration: 2s;
 }
 
 @keyframes logo{
